@@ -1,6 +1,6 @@
 # Data Analysis of Egyptian Movies
 **Brief about project:**
--The project targets the textual analysis of Egyptian movie plot
+- The project targets the textual analysis of Egyptian movie plot
   summaries that were curated from online sources, covering the four golden decades
   of Egyptian Cinema.
 -The project involves the implementation of a textual data analysis pipeline, from

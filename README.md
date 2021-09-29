@@ -1,1 +1,2 @@
-# Data Analysis of Egyptian Moviea
+# Data Analysis of Egyptian Movies
+    **Brief about project:**

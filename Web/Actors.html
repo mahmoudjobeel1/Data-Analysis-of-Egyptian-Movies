@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+
+<link rel = "stylesheet" type = "text/css" href="ContactUs.css">
+<title>
+     Home
+</title>
+
+<style>
+body{
+ 
+         
+ background-color:
+ #EEEEEE
+
+
+;
+ }
+ .photo{
+    position: relative;
+    
+    float: right;
+    
+    
+}
+
+button{
+  height: 50px;
+  background-color:#393E46 ;
+  color: #F7F7F7;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #393E46
+
+
+
+;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #F7F7F7
+
+;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+p{
+    color: cornsilk;
+}
+h1{
+    color: #929AAB
+
+
+;
+}
+h3{
+    color: darkkhaki;
+}
+
+.team{
+    color:#c5ab93;
+
+}
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+
+<body>
+
+  <ul>
+    <li><a href="Home.html"> الصفحة الرئيسية</a></li>
+    
+    <li><a href="About.html">  حول الموقع</a></li>
+    
+    <li><a href="Actors.html">  إحصائيات الممثلين</a></li>
+    
+    <li><a href="ERA.html"> إحصائيات الحقبة </a></li>
+    
+    <li><a href="Genres.html">  إحصائيات النوع الأدبي</a></li>
+
+    <li><a href="words.html"> الكلمات المميزة </a></li>
+  </ul>
+
+      <br>
+      <br>
+      <br>
+      
+     <h1><img src="Movie6.jpg" class="photo" width="500" height="500">الحقبة</h1>
+     <button type="button" onclick="myfucntion40()">أكثر الممثلين ظهورا في عام 1940</button>
+     
+     <button type="button" onclick="myfucntion50()">أكثر الممثلين ظهورا في عام 1950</button>
+     
+     
+     <button type="button" onclick="myfucntion60()">أكثر الممثلين ظهورا في عام 1960</button>
+     <button type="button" onclick="myfucntion70()">أكثر الممثلين ظهورا في عام 1970</button>
+     
+     
+     <h1>النوع الأدبي</h1>
+     <button type="button" onclick="myfucntionC()">أكثر الممثلين ظهورا في نوع الكوميديا</button>
+     
+     <button type="button" onclick="myfucntionD()">أكثر الممثلين ظهورا في نوع الدراما</button>
+   
+     
+     <button type="button" onclick="myfucntionR()">أكثر الممثلين ظهورا في نوع الرومانسية</button>
+
+     <br>
+     <br>
+     <br>
+
+     <div id="all"> <p id="every"></p></div>
+     <img src="eeeeee.png" id="myImage" width="350" height="350" >
+
+  
+
+     
+
+
+ <script>
+   function myfucntion40(){
+    document.getElementById("every").innerHTML ="";
+   
+    var image = document.getElementById('myImage');
+            
+                image.src = "Most Appearing Actors in 1940's.png";
+
+   }
+   function myfucntion50(){
+    document.getElementById("all").innerHTML = "";
+
+    var image = document.getElementById('myImage');
+            
+                image.src = "Most Appearing Actors in 1950's.png";
+     
+    }
+    function myfucntion60(){
+      document.getElementById("all").innerHTML = "";
+
+      var image = document.getElementById('myImage');
+            
+                image.src = "Most Appearing Actors in 1960's.png";
+     
+    }
+    function myfucntion70(){
+      document.getElementById("all").innerHTML = "";
+
+      var image = document.getElementById('myImage');
+            
+                image.src = "Most Appearing Actors in 1970's.png";
+     
+    }
+
+
+    function myfucntionC(){
+      document.getElementById("all").innerHTML = "";
+
+      var image = document.getElementById('myImage');
+            
+                image.src = "Most Appearing Actors in Comedy genre.png";
+
+}
+function myfucntionD(){
+  document.getElementById("all").innerHTML = "";
+
+  var image = document.getElementById('myImage');
+            
+                image.src = "Most Appearing Actors in Drama genre.png";
+  
+ }
+ function myfucntionR(){
+  
+  document.getElementById("all").innerHTML = "";
+
+  var image = document.getElementById('myImage');
+            
+                image.src = "Most Appearing Actors in Romance genre.png";
+ }
+ 
+
+ </script>
+
+
+      
+
+    
+   
+</body>
+
+</html>

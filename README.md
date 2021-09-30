@@ -11,3 +11,4 @@
   inconsistencies. Textual synopses will be processed and analyzed in order to
   discover movie clusters and similarities between movie plots.
 - Insights will be communicated via visualizations and a potential web platform.
+- ok
